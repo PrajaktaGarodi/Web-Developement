@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        div {
+            /* background-color: red; */
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        #green {
+            background-color: greenyellow;
+        }
+
+        div>p {
+            color: blue;
+            background-color: brown;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a:visited {
+            color: yellowgreen;
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:active {
+            background-color: blue;
+        }
+
+        div:hover {
+            background-color: brown;
+        }
+
+        p:first-child {
+            background-color: aqua;
+
+        }
+    </style>
+</head>
+
+<body>
+    <main class="one">
+        <p>I am first</p>
+        <p>I am second</p>
+
+    </main>
+    <a href="https://www.youtube.com/"> youtube</a>
+    <br>
+    <a href="http://www.google.com"> Google</a>
+    <div class="red">
+        I am Coder
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam amet, ducimus debitis distinctio a ipsam
+            pariatur ut enim reprehenderit dolor quo non consectetur!</p>
+    </div>
+    <div>
+        I am chuchu
+    </div>
+    <div id="green">
+        HOW ARE YOU......?
+    </div>
+    <samp>
+
+    </samp>
+
+</body>
+
+</html>
