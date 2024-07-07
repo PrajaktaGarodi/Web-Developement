@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varible in CSS</title>
+    <style>.
+            :root{
+            --color:blue;
+            --seccolor: rgba(178, 178, 232, 0.868);
+        }
+        *{
+            /* margin: 0; */
+            padding: 0;
+        }
+        ul{
+            display: flex;
+        }
+        ul li{
+            list-style: none;
+            padding: 30px;
+            /* margin: 20px; */
+        }
+        ul li :first-child{
+            /* --color:rgb(13, 13, 202); */
+            background-color: var(--color,blue);
+        }
+        .nav{
+            background-color: rgb(183, 183, 240);
+            /* background-color : var(--color); */
+            /* float: left; */
+        }
+        .container{
+            /* background-color: var(--seccolor); */
+            background-color: rgb(191, 243, 243);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About us </li>
+            <li>Contact</li>
+            <li>Fild</li>
+        </ul>
+    </div>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, velit quasi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repudiandae officiis beatae, neque perspiciatis nisi, ducimus quia consectetur dolor est in ad facere accusantium. Blanditiis molestiae minima architecto, quod veniam soluta cupiditate veritatis incidunt nulla quae esse rem a amet. Molestiae laboriosam unde, ut culpa velit, vel, ex inventore debitis id voluptates modi rerum odit.</p>
+    </div>
+</body>
+</html>
