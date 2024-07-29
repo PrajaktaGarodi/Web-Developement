@@ -1,1 +1,4 @@
-alert("Welcome to Prajakta website)
+// alert("Welcome to Prajakta website);
+console.log(
+    'hio'
+);
